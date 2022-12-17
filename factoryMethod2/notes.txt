@@ -3,4 +3,25 @@
 - ex:
   - We have an abstract Person interface and then we wanna have student and teacher 
   - But we dont wanna decide in the code which one we want to instantiate (make it dynamic)
-  - 
+
+
+abc (abstract base classes) module in python:
+- Is a tool for creating abstract base classes (ABCs) and abstract methods
+- An abstract base class is a CANNOT BE INSTANTIATED and serves as A BASE CLASS for
+  one or more derived class
+- Abc are used to define a set of methods that must be implemented by any CONCRETE
+  (i.e, not abstract) subclass
+- This allows you to create a common interface for a group of related classes and ensures 
+  that certain methods are implemented in all of them
+
+Abstract method:
+- Is a method that is declared in an abstract base class, but DOES NOT HAVE AN IMPLEMENTATION
+- Abstract method are meant to be implemented by CONCRETE SUBCLASSES, and they provide a way
+  to specify that a subclass must implement certain functionality
+
+
+@staticmethod:
+- A staticmethod in python is a method that belongs to a class rather than an instance of
+  of the class
+- It is a method that is SHARED by ALL INSTANCES OF A CLASS, and it does not HAVE ACCESS
+  to the instance itself
