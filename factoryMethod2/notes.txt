@@ -1,0 +1,6 @@
+- Factory design pattern allows us to to choose during runtime what particular instance 
+  we want to create
+- ex:
+  - We have an abstract Person interface and then we wanna have student and teacher 
+  - But we dont wanna decide in the code which one we want to instantiate (make it dynamic)
+  - 
