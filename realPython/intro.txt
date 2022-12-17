@@ -1,0 +1,14 @@
+Interface Overview:
+- At high level, an interface acts as BLUEPRINT for designing classes
+- Like classes, interfaces define methods
+- Unlike classes, these methods are abstract
+- An abstract method is one that the interface simply defines. It doesn't implement the methods
+- This is done by classes, which then IMPLEMENT the interface and give CONCRETE MEANING
+  to the interface's abstract methods
+
+Informal Interfaces:
+- In certain circumstances, you may not need the strict rules
+  of formal python interface.
+- Python dynamic nature allows you to implement an INFORMAL INTERFACE
+- An informal python interface is a class that defines methods 
+  that can be overriden, but there is no strict enforcement
