@@ -35,7 +35,7 @@ dog1.make_sound()
 
 # make factory method to define what animal type based on input
 class AnimalFactory:
-    # staticmethod Ecplanation below
+    # staticmethod E below
     @staticmethod
     def decide_animal(animal):
         if animal == "cat":
@@ -54,7 +54,7 @@ if __name__ == "__main__":
 
 """
 The Animal class is an abstract base class that defines an abstract method called make_sound()
-The Dog and Cat classes are concrete subclasses of Animal abstract base class that implement
+The Dog and Cat classes are CONCRETE SUBCLASSES of Animal abstract base class that implement
 the make_sound method. Because the Dog and Cat classes provide an implementation for the 
 make_sound() method, they are not abstract method. Therefore, they can be instantiated
 """
