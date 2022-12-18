@@ -7,8 +7,9 @@
 
 abc (abstract base classes) module in python:
 - Is a tool for creating abstract base classes (ABCs) and abstract methods
-- An abstract base class is a CANNOT BE INSTANTIATED and serves as A BASE CLASS for
-  one or more derived class
+- An abstract base class CANNOT BE INSTANTIATED and serves as A BASE CLASS for
+  one or more derived 
+- Often used when using facotry pattern(creational patter) in python to make the interface
 - Abc are used to define a set of methods that must be implemented by any CONCRETE
   (i.e, not abstract) subclass
 - This allows you to create a common interface for a group of related classes and ensures 
@@ -21,7 +22,7 @@ Abstract method:
 
 
 @staticmethod:
-- A staticmethod in python is a method that belongs to a class rather than an instance of
+- A staticmethod in python is a method that BELONGS TO A CLASS rather than an instance of
   of the class
 - It is a method that is SHARED by ALL INSTANCES OF A CLASS, and it does not HAVE ACCESS
-  to the instance itself
+  to THE INSTANCE ITSELF
