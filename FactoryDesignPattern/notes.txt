@@ -1,0 +1,20 @@
+Overview:
+- When delveloping code, you may instantiate objects direcly in method or in classes
+- you may want to add extra abstraction between the creation of the objects and where it
+  is used in your project
+- You can use Factory Pattern (Creational Pattern) to add extra abstraction
+- Adding extra abstraction will also allow you to dinamically choose classes to instantiate
+  based on some kind of logic
+
+
+Terminology:
+- CONCRETE CREATOR:
+  + the client application, class or method that calls the Creator (Factory method)
+- PRODUCT INTERFACE:
+  + The interface describing the attributes and methods that the Factory will require
+    in order to create the final product/object
+- CREATOR:
+  + The Factory class. Declares the Factory method that will return object requested from it
+- CONCRETE PRODUCT:
+  + The object returned from the factory. The object implmements the product interface
+  
